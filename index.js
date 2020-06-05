@@ -19,6 +19,8 @@ nextISSTimesForMyLocation((error, flyovertime) => {
   printTime(flyovertime);
 });
 
+module.exports = printTime;
+
 
 // fetchMyIP ((error, ip) => {
 //   if (error) {
